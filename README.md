@@ -28,7 +28,6 @@ tqdm
    --------ground_truth  
    --------input  
 3. Copy the datasets into corresponding folds.  
-# Code
 # Train form the scratch
 Open a terminator and use command 'python train.py'
 # Test the method
@@ -39,4 +38,4 @@ H. Luo and X. Wan, "Estimating Polynomial Coefficients to Correct Improperly Whi
 # Contact
 If you have any question, please feel free to contact Hang Luo at hluo@wtu.edu.cn.
 # Acknowledge
-Some codes in our project are directly taken from [Wb_sRGB](https://github.com/mahmoudnafifi/WB_sRGB) and [Deep White Balance](https://github.com/mahmoudnafifi/Deep_White_Balance)).
+Some codes in our project are directly taken from [Wb_sRGB](https://github.com/mahmoudnafifi/WB_sRGB) and [Deep White Balance](https://github.com/mahmoudnafifi/Deep_White_Balance).
