@@ -92,8 +92,7 @@ def test(poly_net, set_name):
 if __name__ == "__main__":
     os.makedirs('my_correction', exist_ok=True) # directory to save corrected images
     dev = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-    # dataset = ['set1_no_chart', 'set2', 'cube']
-    dataset = ['set1_no_chart']
+    dataset = ['set1_no_chart', 'set2', 'cube']
     #load model
     poly_net = PolyNet(hyper).to(hyper['dev']) # 多项式网络
     check_point_poly = torch.load('./check_points/model_best.pth') # 多项式网络训练好的参数
