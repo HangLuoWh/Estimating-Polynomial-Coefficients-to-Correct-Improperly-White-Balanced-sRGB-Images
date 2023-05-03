@@ -31,7 +31,7 @@ tqdm
 # Train form the scratch
 Open a terminator and use command 'python train.py'
 # Test the method
-Open a terminator and use command 'python test.py'  
+Download a checkpoint, and we have provided one [here (extraction code: eguf)](https://pan.baidu.com/s/1Qv7xRfWcv42-5BM6gsFqHg). Open a terminator and use command 'python test.py'  
 \
 If you use our codes please cite our paper:  
 H. Luo and X. Wan, "Estimating Polynomial Coefficients to Correct Improperly White-Balanced sRGB Images," in IEEE Signal Processing Letters, vol. 28, pp. 1709-1713, 2021, doi: 10.1109/LSP.2021.3102527.
