@@ -11,19 +11,17 @@ This is the  official python implementation of the paper &lt;Estimating Polynomi
 8. torchvision
 # Dataset preparation
 1. Download the [Rendered WB dataset](https://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/dataset.html).
-2. Put the dataset into the folder 'train_set', and arrange these datasets as:  
+2. create a directory 'train_set', and arrange these datasets as:  
 train_set  
 ----set_no_chart  
 --------ground_truth  
 --------ground_truth_metadata  
 --------input  
 --------input_metadata  
---------test.txt  
---------train.txt  
---------vali.txt  
 ----set2  
 --------ground_truth  
 --------input  
 ----cube  
 --------ground_truth  
 --------input  
+3. Put test.txt, train.txt and vali.txt into 'train_set/set_no_chart'
