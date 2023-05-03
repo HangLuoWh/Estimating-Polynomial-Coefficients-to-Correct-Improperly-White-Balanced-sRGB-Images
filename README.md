@@ -27,7 +27,7 @@ tqdm
    ----cube  
    --------ground_truth  
    --------input  
-3. Copy the datasets into corresponding folds.  
+3. Copy the datasets into the corresponding folds.  
 # Train form the scratch
 Open a terminator and use command 'python train.py'
 # Test the method
