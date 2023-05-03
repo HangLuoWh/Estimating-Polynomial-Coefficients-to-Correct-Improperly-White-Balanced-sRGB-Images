@@ -11,7 +11,7 @@ scikit-image
 tqdm  
 # Dataset Preparation
 1. Download the [Rendered WB dataset](http://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/dataset.html).
-2. Organize folder 'train_set' as:  
+2. Organize the folder 'train_set' as:  
    train_set  
    ----set1_no_chart  
    --------ground_truth  
@@ -29,3 +29,8 @@ tqdm
    --------input  
 3. Copy the datasets into corresponding folds.
 # Code
+# Train form the scratch
+Open a terminator and use command 'python train.py'
+# Test the method
+use command 'python test.py'
+# 
