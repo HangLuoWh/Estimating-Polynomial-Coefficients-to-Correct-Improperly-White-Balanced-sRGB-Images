@@ -24,4 +24,9 @@ train_set
 ----cube  
 --------ground_truth  
 --------input  
-3. Put test.txt, train.txt and vali.txt into 'train_set/set_no_chart'
+3. Put test.txt (test image list), train.txt (train image list) and vali.txt (validation image list) into the directory 'train_set/set_no_chart'.
+# Code
+# Train from scratch
+Just open a terminaor and use command 'python train.py'
+# Test
+Use command 'python test.py'
