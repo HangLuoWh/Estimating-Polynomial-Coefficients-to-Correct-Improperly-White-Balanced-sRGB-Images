@@ -11,4 +11,21 @@ scikit-image
 tqdm
 # Dataset Preparation
 1. Download the [Rendered WB dataset](http://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/dataset.html).
-2. 
+2. Organize folder 'train_set' as:  
+   train_set  
+   ----set1_no_chart  
+   --------ground_truth  
+   --------input  
+   --------ground_truth_metadata  
+   --------input_metadata  
+   --------train.txt  
+   --------vali.txt  
+   --------test.txt  
+   ----set2  
+   --------ground_truth  
+   --------input  
+   ----cube  
+   --------ground_truth  
+   --------input  
+3. Copy the datasets into corresponding folds.
+# Code
